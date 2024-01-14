@@ -3,7 +3,7 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import Footer from "./components/Footer/Footer";
 import TaskBoard from "./components/Task/TaskBoard.jsx/TaskBoard";
 
-function App() {
+const TaskOperation = () => {
   return (
     <section className="bg-[#191D26] font-[Inter] text-white">
       <Header />
@@ -12,6 +12,6 @@ function App() {
       <Footer />
     </section>
   );
-}
+};
 
-export default App;
+export default TaskOperation;
